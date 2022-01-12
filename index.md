@@ -1,3 +1,3 @@
 Jacob Zhong
-favorite animal: cat
+cat
 Hello, World!
