@@ -13,7 +13,7 @@
 - Next, we can start connecting to a remote host on VSCode by first opening a terminal (Terminal --> new terminal menu option)
 - In this terminal, type the command ssh + course specific account. Looks like this: `ssh cs15lwi22ahs@ieng6.ucsd.edu`
 - If it's the first time that you're accessing the server, the message below will appear. Type `yes` to this. 
-```ssh cs15lwi22zz@ieng6.ucsd.edu 
+```
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
