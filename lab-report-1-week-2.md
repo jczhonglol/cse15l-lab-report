@@ -21,3 +21,6 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 - It will ask for your password after to which insert it to login and it should look like this:
 
 ![Image](sshloginmessage.png)
+*now our terminal is connected to a computer in the CSE basement at UCSD and any commands ran here will be ran on the CSE computer*
+
+**3. Trying Some Commands**
