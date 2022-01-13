@@ -9,5 +9,15 @@
 
 **2. Remotely Connecting**
 - If you're on a Windows computer, download [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
-- Afterwards, search up your course specific account for CSE15L at: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) which comes out to cse15Lwi22ahs@ieng6.ucsd.edu for me.
+- Afterwards, search up your course specific account for CSE15L at: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) which comes out to cse15lwi22ahs@ieng6.ucsd.edu for me.
 - Next, we can start connecting to a remote host on VSCode by first opening a terminal (Terminal --> new terminal menu option)
+- In this terminal, type the command ssh + course specific account. Looks like this: `ssh cs15lwi22ahs@ieng6.ucsd.edu`
+- If it's the first time that you're accessing the server, the message below will appear. Type `yes` to this. 
+```ssh cs15lwi22zz@ieng6.ucsd.edu 
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+```
+- It will ask for your password after to which insert it to login and it should look like this:
+
+![Image](sshloginmessage.png)
