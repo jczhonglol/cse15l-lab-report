@@ -25,14 +25,15 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 **3. Trying Some Commands**
 - some useful commands to use: 
-- **cd** - changes the working directory
-- **cd ~** - goes to home directory
-- **ls -lat** - lists all files in the working directory
-- **ls -a** - lists all hidden directories
-- **ls** - lists all directories in current directory
-- **pwd** - shows the full pathway of current working directory
-- **mkdir** - creates a new directory
-- **cat** - concatenates
+- **cd**: changes the working directory
+- **cd** **~**: goes to home directory
+- **ls -lat**:lists all files in the working directory
+- **ls -a**: lists all hidden directories
+- **ls**: lists all directories in current directory
+- **pwd**: shows the full pathway of current working directory
+- **mkdir**: creates a new directory
+- **cat**: concatenates
+
 Example: ![Image](lslatscreenshot.png)
 
 **4. Moving Files with `scp`**
