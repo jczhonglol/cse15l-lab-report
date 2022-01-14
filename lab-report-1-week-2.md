@@ -24,3 +24,15 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 *now our terminal is connected to a computer in the CSE basement at UCSD and any commands ran here will be ran on the CSE computer*
 
 **3. Trying Some Commands**
+- some useful commands to use: 
+- **cd** - changes the working directory
+- **cd ~** - goes to home directory
+- **ls -lat** - lists all files in the working directory
+- **ls -a** - lists all hidden directories
+- **ls** - lists all directories in current directory
+- **pwd** - shows the full pathway of current working directory
+- **mkdir** - creates a new directory
+- **cat** - concatenates
+Example: ![Image](lslatscreenshot.png)
+
+**4. Moving Files with `scp`**
