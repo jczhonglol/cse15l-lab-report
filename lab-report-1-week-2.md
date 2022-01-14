@@ -47,5 +47,19 @@ Example: ![Image](lslatscreenshot.png)
 - After inputing password, login using ssh again and use the command `ls`. 
 - This new file should be seen in the home directory now and the commands `javac` and `java` can be run on the remote computer (ieng6 computer)
 ![Image](movingfilesscp.png)
+*In this example, the file WhereAmI.java was moved*
 
 **5. Setting an SSH Key**
+- on your client side terminal, type the command `ssh-keygen'
+- next type the command `/Users/jacobzhong/.ssh/id_rsa`or whatever file in which to save the key in (in my case it would be jacobzhong)
+- create a passcode and the ssh key should be generated.
+- It should look like this:
+![Image](keygen&save.png)
+- now login to your user ssh and type the command `mkdir .ssh` to create a .ssh directory on your user account on the server and then logout.
+![Image](creatingsshdir.png)
+- Back on the client side, type the command `scp /Users/jacobzhong/.ssh/id_rsa.pub cs15lwi22ahs@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+- Upon doing this, we can now ssh and scp from client to server without having to type in our password
+
+![Image](copykeytouserssh.png)
+
+![Image](testingsshkey.png)
