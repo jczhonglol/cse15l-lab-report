@@ -24,7 +24,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 *now our terminal is connected to a computer in the CSE basement at UCSD and any commands ran here will be ran on the CSE computer*
 
 **3. Trying Some Commands**
-- some useful commands to use: 
+- Some useful commands to use: 
 - **cd**: changes the working directory
 - **cd** **~**: goes to home directory
 - **ls -lat**:lists all files in the working directory
@@ -39,9 +39,9 @@ Example: ![Image](lslatscreenshot.png)
 *the ls -lat command*
 
 **4. Moving Files with `scp`**
-- the command `scp` moves/copies files from your computer to a remote computer
+- The command `scp` moves/copies files from your computer to a remote computer
 - Create a .java file on your computer
-- type the commands javac + the .java file and java + the java file. (If you don't have Java installed, this step can be skipped)
+- Type the commands javac + the .java file and java + the java file. (If you don't have Java installed, this step can be skipped)
 - In the terminal of the directory in which the file was created, type the command `scp (created file).java cs15lwi22ahs@ieng6.ucsd.edu:~/`
 - There will be a password prompt just like the one when using `ssh`
 - After inputing password, login using ssh again and use the command `ls`. 
@@ -50,12 +50,12 @@ Example: ![Image](lslatscreenshot.png)
 *In this example, the file WhereAmI.java was moved*
 
 **5. Setting an SSH Key**
-- on your client side terminal, type the command `ssh-keygen'
-- next type the command `/Users/jacobzhong/.ssh/id_rsa`or whatever file in which to save the key in (in my case it would be jacobzhong)
-- create a passcode and the ssh key should be generated.
+- On your client side terminal, type the command `ssh-keygen'
+- Next, type the command `/Users/jacobzhong/.ssh/id_rsa`or whatever file in which to save the key in (in my case it would be jacobzhong)
+- Create a passcode and the ssh key should be generated.
 - It should look like this:
 ![Image](keygen&save.png)
-- now login to your user ssh and type the command `mkdir .ssh` to create a .ssh directory on your user account on the server and then logout.
+- Now login to your user ssh and type the command `mkdir .ssh` to create a .ssh directory on your user account on the server and then logout.
 ![Image](creatingsshdir.png)
 - Back on the client side, type the command `scp /Users/jacobzhong/.ssh/id_rsa.pub cs15lwi22ahs@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 - Upon doing this, we can now ssh and scp from client to server without having to type in our password
