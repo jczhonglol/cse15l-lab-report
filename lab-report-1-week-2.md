@@ -63,3 +63,8 @@ Example: ![Image](lslatscreenshot.png)
 ![Image](copykeytouserssh.png)
 
 ![Image](testingsshkey.png)
+
+**6. Optimizing Remote Running**
+- Writing a command in quotes directly after an ssh command will run the command directly on the remote server and then exit.
+- Semicolons can be used to run multiple commands in the same line
+- The up-arrow key on the keyboard will recall the most recent command that was run
