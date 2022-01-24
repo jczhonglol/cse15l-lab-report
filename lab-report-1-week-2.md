@@ -32,6 +32,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 - **mkdir**: creates a new directory
 - **cat**: concatenates
 - To log out of the remote server: ctrl+D or type the command `exit`
+
 Example: ![Image](lslatscreenshot.png)
 *the ls -lat command*
 
@@ -42,9 +43,10 @@ Example: ![Image](lslatscreenshot.png)
 - In the terminal of the directory in which the file was created, type the command `scp (created file).java cs15lwi22ahs@ieng6.ucsd.edu:~/`
 - There will be a password prompt just like the one when using `ssh`
 - After inputing password, login using ssh again and use the command `ls`. 
-- This new file should be seen in the home directory now and the commands `javac` and `java` can be run on the remote computer (ieng6 computer)
-![Image](movingfilesscp.png)
-*In this example, the file WhereAmI.java was moved*
+- This new file should be seen in the home directory now and the commands `javac` and `java` can be run on the remote computer (ieng6 computer).
+
+Example: ![Image](movingfilesscp.png)
+*Here, the file WhereAmI.java was moved*
 
 **5. Setting an SSH Key**
 - On your client side terminal, type the command `ssh-keygen'
