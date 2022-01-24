@@ -4,7 +4,6 @@
 - Go to [VSCode's](https://code.visualstudio.com/) website
 - Download for either Windows or Mac (or for any OS you are using)
 - After installing, launch the application and it should look like this: 
-
 ![Image](VSCodeScreenshot.png)
 
 **2. Remotely Connecting**
