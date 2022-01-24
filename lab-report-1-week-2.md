@@ -18,8 +18,7 @@ The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
-- It will ask for your password after to which insert it to login and it should look like this:
-
+- It will ask for your password after which insert it to login and it should look like this:
 ![Image](sshloginmessage.png)
 *now our terminal is connected to a computer in the CSE basement at UCSD and any commands ran here will be ran on the CSE computer*
 
@@ -34,7 +33,6 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 - **mkdir**: creates a new directory
 - **cat**: concatenates
 - To log out of the remote server: ctrl+D or type the command `exit`
-
 Example: ![Image](lslatscreenshot.png)
 *the ls -lat command*
 
@@ -46,7 +44,6 @@ Example: ![Image](lslatscreenshot.png)
 - There will be a password prompt just like the one when using `ssh`
 - After inputing password, login using ssh again and use the command `ls`. 
 - This new file should be seen in the home directory now and the commands `javac` and `java` can be run on the remote computer (ieng6 computer)
-
 ![Image](movingfilesscp.png)
 *In this example, the file WhereAmI.java was moved*
 
@@ -55,14 +52,11 @@ Example: ![Image](lslatscreenshot.png)
 - Next, type the command `/Users/jacobzhong/.ssh/id_rsa`or whatever file in which to save the key in (in my case it would be jacobzhong)
 - Create a passcode and the ssh key should be generated.
 - It should look like this:
-
 ![Image](keygen&save.png)
 - Now login to your user ssh and type the command `mkdir .ssh` to create a .ssh directory on your user account on the server and then logout.
-
 ![Image](creatingsshdir.png)
 - Back on the client side, type the command `scp /Users/jacobzhong/.ssh/id_rsa.pub cs15lwi22ahs@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 - Upon doing this, we can now ssh and scp from client to server without having to type in our password
-
 ![Image](copykeytouserssh.png)
 ![Image](testingsshkey.png)
 
