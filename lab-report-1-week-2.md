@@ -64,7 +64,6 @@ Example: ![Image](lslatscreenshot.png)
 - Upon doing this, we can now ssh and scp from client to server without having to type in our password
 
 ![Image](copykeytouserssh.png)
-
 ![Image](testingsshkey.png)
 
 **6. Optimizing Remote Running**
@@ -73,7 +72,6 @@ Example: ![Image](lslatscreenshot.png)
 - The up-arrow key on the keyboard will recall the most recent command that was run
 
 Example: 
-
 ![Image](localedit.png)
 ![Image](keystrokes.png)
 *In this example, I made a local edit that prints "local edit" to the file WhereAmI.java.
